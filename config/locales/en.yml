@@ -1254,8 +1254,8 @@ en:
   site:
     about:
       next: Next
-      copyright_html: OpenHistoricalMap data is licensed and marked at the object/element level.
-      used_by: "%{name} collaboratively stores and displays map data throughout the history of the world"
+      copyright_html: OpenHistoricalMap
+      used_by: "%{name} collaboratively collects, creates, and displays map data throughout the history of the world"
       lede_text: |
         OpenHistoricalMap is built by a community of mappers and historians that contribute and maintain data
         about the history of the world.
@@ -1282,9 +1282,8 @@ en:
         This site and many other related services are formally operated by the
         very informal OpenHistoricalMap collective 
         on behalf of the community. 
-        Please contact the OHM team at historic@opensteetmap.org<
+        Please contact the OHM team at historic@opensteetmap.org
         if you have licensing, copyright or other legal questions.
-        <br>
       partners_title: Partners
     copyright:
       foreign:
@@ -1322,12 +1321,12 @@ en:
         credit_1_html: |
           We do not require any OHM-specific credit separate from those
           required by the underlying data. Citations, however, are appreciated
-          as "OpenHistoricalMap contributors"
+          as "OpenHistoricalMap contributors."
         credit_2_html: |
           ..
         credit_3_html: |
           For a browsable electronic map, OHM prefers the optional credits appear 
-          in the lower-right corner of the map.
+          in the lower-right corner of the map, with a link to OpenHistoricalMap.org.
           For example:
         attribution_example:
           alt: Example of how to attribute OpenHistoricalMap on a webpage
@@ -1347,9 +1346,13 @@ en:
           Our contributors are many, many individuals and organizations. We would
           not exist without their efforts. 
         contributors_at_html: |
-          ..
+          <b>Software.</b> <a href="https://openstreetmap.org">OpenStreetMap</a>. 
+          OpenHistoricalMap would not exist without the incredible software and 
+          ecosystem of tools created by the truly tireless effort of the 
+          OpenStreetMap community and the support of the 
+          <a href="https://wiki.osmfoundation.org/wiki/Main_Page">OpenStreetMap Foundation</a>. 
         contributors_au_html: |
-          ..
+          <b>Public Domain Data.</b> Natural Earth Data 
         contributors_ca_html: |
           ..
         contributors_fi_html: |
@@ -1633,9 +1636,9 @@ en:
       basic_terms:
         title: Basic Terms For Mapping
         paragraph_1_html: |
-          OpenHistoricalMap uses the same lingo as OpenStreetMap (OSM). In general, if you have any
-          questions, you can answer them with the same solutions as for OSM. 
-          Here are a few key words that'll come in handy.
+          OpenHistoricalMap uses the same lingo as OpenStreetMap (OSM). If you have any
+          questions about how to map something, you can generally answer them with the same  
+          solutions as for OSM. Here are a few key words that'll come in handy.
         editor_html: |
           An <strong>editor</strong> is a program or website you can use to edit the map.
         node_html: |
