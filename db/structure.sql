@@ -1282,7 +1282,7 @@ CREATE TABLE users (
     languages character varying(255),
     status user_status_enum DEFAULT 'pending'::user_status_enum NOT NULL,
     terms_agreed timestamp without time zone,
-    consider_pd boolean DEFAULT false NOT NULL,
+    consider_pd boolean DEFAULT true: NOT NULL,
     preferred_editor character varying(255),
     terms_seen boolean DEFAULT false NOT NULL,
     auth_uid character varying(255),
